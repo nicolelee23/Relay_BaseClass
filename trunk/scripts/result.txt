@@ -1,0 +1,833 @@
+configure.ac:7: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.ac:7: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+src/CToSMapManager/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/RelayServer/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/Timer/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/comm/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/daemon/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/log/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/odbc/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/sys/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/util/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/common/xml/Makefile.am:1: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ranlib... (cached) ranlib
+checking for main in -lpthread... yes
+checking for main in -lrt... yes
+checking for main in -lxml2... yes
+checking for main in -lodbc... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/common/Makefile
+config.status: creating src/common/comm/Makefile
+config.status: creating src/common/daemon/Makefile
+config.status: creating src/common/log/Makefile
+config.status: creating src/common/sys/Makefile
+config.status: creating src/common/odbc/Makefile
+config.status: creating src/common/Timer/Makefile
+config.status: creating src/common/util/Makefile
+config.status: creating src/common/xml/Makefile
+config.status: creating src/RelayClient/Makefile
+config.status: creating src/RelayServer/Makefile
+config.status: creating src/CToSMapManager/Makefile
+config.status: creating test/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+(CDPATH="${ZSH_VERSION+.}:" && cd .. && /bin/bash /root/lqm/Relay/trunk/missing autoheader)
+rm -f stamp-h1
+touch ../config.h.in
+cd . && /bin/bash ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[1]: Entering directory `/root/lqm/Relay/trunk/build'
+Making all in src
+make[2]: Entering directory `/root/lqm/Relay/trunk/build/src'
+Making all in common
+make[3]: Entering directory `/root/lqm/Relay/trunk/build/src/common'
+Making all in comm
+make[4]: Entering directory `/root/lqm/Relay/trunk/build/src/common/comm'
+make[5]: Entering directory `/root/lqm/Relay/trunk/build/src/common/comm'
+/bin/bash ../../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../../../src/common/comm -I../../.. -I../../../../include    -g -DNDEBUG -D__STDC_FORMAT_MACROS -D__STDC_CONSTANT_MACROS -Wall -MT Epoll.lo -MD -MP -MF .deps/Epoll.Tpo -c -o Epoll.lo ../../../../src/common/comm/Epoll.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../../../src/common/comm -I../../.. -I../../../../include -g -DNDEBUG -D__STDC_FORMAT_MACROS -D__STDC_CONSTANT_MACROS -Wall -MT Epoll.lo -MD -MP -MF .deps/Epoll.Tpo -c ../../../../src/common/comm/Epoll.cpp  -fPIC -DPIC -o .libs/Epoll.o
+../../../../src/common/comm/Epoll.cpp:1:1: error: 'uinclude' does not name a type
+ uinclude <time.h>
+ ^
+In file included from /usr/include/stdio.h:74:0,
+                 from ../../../../include/common/comm/EpollEvent.h:4,
+                 from ../../../../include/common/comm/TCPAgent.h:6,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/libio.h:306:3: error: 'size_t' does not name a type
+   size_t __pad5;
+   ^
+/usr/include/libio.h:310:67: error: 'size_t' was not declared in this scope
+   char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+                                                                   ^
+/usr/include/libio.h:310:67: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:59:0,
+                 from /usr/include/c++/4.8/list:60,
+                 from ../../../../include/common/comm/Epoll.h:6,
+                 from ../../../../src/common/comm/Epoll.cpp:5:
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:186:26: note:   'std::size_t'
+   typedef __SIZE_TYPE__  size_t;
+                          ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:186:26: note:   'std::size_t'
+In file included from /usr/include/stdio.h:74:0,
+                 from ../../../../include/common/comm/EpollEvent.h:4,
+                 from ../../../../include/common/comm/TCPAgent.h:6,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/libio.h:338:62: error: 'size_t' has not been declared
+ typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
+                                                              ^
+/usr/include/libio.h:347:6: error: 'size_t' has not been declared
+      size_t __n);
+      ^
+In file included from /usr/include/stdio.h:74:0,
+                 from ../../../../include/common/comm/EpollEvent.h:4,
+                 from ../../../../include/common/comm/TCPAgent.h:6,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/libio.h:469:8: error: 'size_t' does not name a type
+ extern _IO_size_t _IO_sgetn (_IO_FILE *, void *, _IO_size_t);
+        ^
+In file included from ../../../../include/common/comm/EpollEvent.h:4:0,
+                 from ../../../../include/common/comm/TCPAgent.h:6,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/stdio.h:319:35: error: 'size_t' has not been declared
+ extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+                                   ^
+/usr/include/stdio.h:325:47: error: 'size_t' has not been declared
+ extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __THROW __wur;
+                                               ^
+/usr/include/stdio.h:337:20: error: 'size_t' has not been declared
+       int __modes, size_t __n) __THROW;
+                    ^
+/usr/include/stdio.h:344:10: error: 'size_t' has not been declared
+          size_t __size) __THROW;
+          ^
+/usr/include/stdio.h:386:44: error: 'size_t' has not been declared
+ extern int snprintf (char *__restrict __s, size_t __maxlen,
+                                            ^
+/usr/include/stdio.h:390:45: error: 'size_t' has not been declared
+ extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+                                             ^
+/usr/include/stdio.h:666:11: error: 'size_t' has not been declared
+           size_t *__restrict __n, int __delimiter,
+           ^
+/usr/include/stdio.h:669:9: error: 'size_t' has not been declared
+         size_t *__restrict __n, int __delimiter,
+         ^
+/usr/include/stdio.h:679:8: error: 'size_t' has not been declared
+        size_t *__restrict __n,
+        ^
+/usr/include/stdio.h:709:8: error: 'size_t' does not name a type
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+        ^
+/usr/include/stdio.h:715:8: error: 'size_t' does not name a type
+ extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+        ^
+/usr/include/stdio.h:737:8: error: 'size_t' does not name a type
+ extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+        ^
+/usr/include/stdio.h:739:8: error: 'size_t' does not name a type
+ extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+        ^
+In file included from ../../../../include/common/comm/BufferManager.h:24:0,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/c++/4.8/cstring:75:11: error: '::memchr' has not been declared
+   using ::memchr;
+           ^
+/usr/include/c++/4.8/cstring:76:11: error: '::memcmp' has not been declared
+   using ::memcmp;
+           ^
+/usr/include/c++/4.8/cstring:77:11: error: '::memcpy' has not been declared
+   using ::memcpy;
+           ^
+/usr/include/c++/4.8/cstring:78:11: error: '::memmove' has not been declared
+   using ::memmove;
+           ^
+/usr/include/c++/4.8/cstring:79:11: error: '::memset' has not been declared
+   using ::memset;
+           ^
+/usr/include/c++/4.8/cstring:80:11: error: '::strcat' has not been declared
+   using ::strcat;
+           ^
+/usr/include/c++/4.8/cstring:81:11: error: '::strcmp' has not been declared
+   using ::strcmp;
+           ^
+/usr/include/c++/4.8/cstring:82:11: error: '::strcoll' has not been declared
+   using ::strcoll;
+           ^
+/usr/include/c++/4.8/cstring:83:11: error: '::strcpy' has not been declared
+   using ::strcpy;
+           ^
+/usr/include/c++/4.8/cstring:84:11: error: '::strcspn' has not been declared
+   using ::strcspn;
+           ^
+/usr/include/c++/4.8/cstring:85:11: error: '::strerror' has not been declared
+   using ::strerror;
+           ^
+/usr/include/c++/4.8/cstring:86:11: error: '::strlen' has not been declared
+   using ::strlen;
+           ^
+/usr/include/c++/4.8/cstring:87:11: error: '::strncat' has not been declared
+   using ::strncat;
+           ^
+/usr/include/c++/4.8/cstring:88:11: error: '::strncmp' has not been declared
+   using ::strncmp;
+           ^
+/usr/include/c++/4.8/cstring:89:11: error: '::strncpy' has not been declared
+   using ::strncpy;
+           ^
+/usr/include/c++/4.8/cstring:90:11: error: '::strspn' has not been declared
+   using ::strspn;
+           ^
+/usr/include/c++/4.8/cstring:91:11: error: '::strtok' has not been declared
+   using ::strtok;
+           ^
+/usr/include/c++/4.8/cstring:92:11: error: '::strxfrm' has not been declared
+   using ::strxfrm;
+           ^
+/usr/include/c++/4.8/cstring:93:11: error: '::strchr' has not been declared
+   using ::strchr;
+           ^
+/usr/include/c++/4.8/cstring:94:11: error: '::strpbrk' has not been declared
+   using ::strpbrk;
+           ^
+/usr/include/c++/4.8/cstring:95:11: error: '::strrchr' has not been declared
+   using ::strrchr;
+           ^
+/usr/include/c++/4.8/cstring:96:11: error: '::strstr' has not been declared
+   using ::strstr;
+           ^
+In file included from /usr/include/x86_64-linux-gnu/sys/uio.h:28:0,
+                 from ../../../../include/common/comm/BufferManager.h:25,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/x86_64-linux-gnu/bits/uio.h:46:5: error: 'size_t' does not name a type
+     size_t iov_len; /* Length of data.  */
+     ^
+In file included from /usr/include/x86_64-linux-gnu/sys/socket.h:38:0,
+                 from /usr/include/netinet/in.h:23,
+                 from ../../../../include/common/comm/BaseReq.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:28,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/x86_64-linux-gnu/bits/socket.h:230:5: error: 'size_t' does not name a type
+     size_t msg_iovlen;  /* Number of elements in the vector.  */
+     ^
+/usr/include/x86_64-linux-gnu/bits/socket.h:233:5: error: 'size_t' does not name a type
+     size_t msg_controllen; /* Ancillary data buffer length.
+     ^
+/usr/include/x86_64-linux-gnu/bits/socket.h:244:5: error: 'size_t' does not name a type
+     size_t cmsg_len;  /* Length of data in cmsg_data plus length
+     ^
+In file included from /usr/include/netinet/in.h:23:0,
+                 from ../../../../include/common/comm/BaseReq.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:28,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/x86_64-linux-gnu/sys/socket.h:149:51: error: 'size_t' has not been declared
+ extern ssize_t send (int __fd, const void *__buf, size_t __n, int __flags);
+                                                   ^
+/usr/include/x86_64-linux-gnu/sys/socket.h:156:45: error: 'size_t' has not been declared
+ extern ssize_t recv (int __fd, void *__buf, size_t __n, int __flags);
+                                             ^
+/usr/include/x86_64-linux-gnu/sys/socket.h:163:53: error: 'size_t' has not been declared
+ extern ssize_t sendto (int __fd, const void *__buf, size_t __n,
+                                                     ^
+/usr/include/x86_64-linux-gnu/sys/socket.h:174:60: error: 'size_t' has not been declared
+ extern ssize_t recvfrom (int __fd, void *__restrict __buf, size_t __n,
+                                                            ^
+In file included from /usr/include/c++/4.8/cwchar:44:0,
+                 from /usr/include/c++/4.8/bits/postypes.h:40,
+                 from /usr/include/c++/4.8/bits/char_traits.h:40,
+                 from /usr/include/c++/4.8/string:40,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/wchar.h:151:38: error: 'size_t' has not been declared
+     const wchar_t *__restrict __src, size_t __n)
+                                      ^
+/usr/include/wchar.h:159:38: error: 'size_t' has not been declared
+     const wchar_t *__restrict __src, size_t __n)
+                                      ^
+/usr/include/wchar.h:166:63: error: 'size_t' has not been declared
+ extern int wcsncmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)
+                                                               ^
+/usr/include/wchar.h:176:4: error: 'size_t' has not been declared
+    size_t __n) __THROW;
+    ^
+/usr/include/wchar.h:183:5: error: '__locale_t' has not been declared
+     __locale_t __loc) __THROW;
+     ^
+/usr/include/wchar.h:186:6: error: 'size_t' has not been declared
+      size_t __n, __locale_t __loc) __THROW;
+      ^
+/usr/include/wchar.h:186:18: error: '__locale_t' has not been declared
+      size_t __n, __locale_t __loc) __THROW;
+                  ^
+/usr/include/wchar.h:196:8: error: 'size_t' does not name a type
+ extern size_t wcsxfrm (wchar_t *__restrict __s1,
+        ^
+/usr/include/wchar.h:207:9: error: '__locale_t' has not been declared
+         __locale_t __loc) __THROW;
+         ^
+/usr/include/wchar.h:212:8: error: 'size_t' does not name a type
+ extern size_t wcsxfrm_l (wchar_t *__s1, const wchar_t *__s2,
+        ^
+/usr/include/wchar.h:252:8: error: 'size_t' does not name a type
+ extern size_t wcscspn (const wchar_t *__wcs, const wchar_t *__reject)
+        ^
+/usr/include/wchar.h:256:8: error: 'size_t' does not name a type
+ extern size_t wcsspn (const wchar_t *__wcs, const wchar_t *__accept)
+        ^
+/usr/include/wchar.h:287:8: error: 'size_t' does not name a type
+ extern size_t wcslen (const wchar_t *__s) __THROW __attribute_pure__;
+        ^
+/usr/include/wchar.h:306:8: error: 'size_t' does not name a type
+ extern size_t wcsnlen (const wchar_t *__s, size_t __maxlen)
+        ^
+/usr/include/wchar.h:314:59: error: 'size_t' has not been declared
+ extern "C++" wchar_t *wmemchr (wchar_t *__s, wchar_t __c, size_t __n)
+                                                           ^
+/usr/include/wchar.h:317:10: error: 'size_t' has not been declared
+          size_t __n)
+          ^
+/usr/include/wchar.h:325:63: error: 'size_t' has not been declared
+ extern int wmemcmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)
+                                                               ^
+/usr/include/wchar.h:330:37: error: 'size_t' has not been declared
+     const wchar_t *__restrict __s2, size_t __n) __THROW;
+                                     ^
+/usr/include/wchar.h:334:63: error: 'size_t' has not been declared
+ extern wchar_t *wmemmove (wchar_t *__s1, const wchar_t *__s2, size_t __n)
+                                                               ^
+/usr/include/wchar.h:338:53: error: 'size_t' has not been declared
+ extern wchar_t *wmemset (wchar_t *__s, wchar_t __c, size_t __n) __THROW;
+                                                     ^
+/usr/include/wchar.h:345:38: error: 'size_t' has not been declared
+      const wchar_t *__restrict __s2, size_t __n)
+                                      ^
+/usr/include/wchar.h:365:8: error: 'size_t' does not name a type
+ extern size_t mbrtowc (wchar_t *__restrict __pwc,
+        ^
+/usr/include/wchar.h:370:8: error: 'size_t' does not name a type
+ extern size_t wcrtomb (char *__restrict __s, wchar_t __wc,
+        ^
+/usr/include/wchar.h:374:8: error: 'size_t' does not name a type
+ extern size_t __mbrlen (const char *__restrict __s, size_t __n,
+        ^
+/usr/include/wchar.h:376:8: error: 'size_t' does not name a type
+ extern size_t mbrlen (const char *__restrict __s, size_t __n,
+        ^
+/usr/include/wchar.h:408:8: error: 'size_t' does not name a type
+ extern size_t mbsrtowcs (wchar_t *__restrict __dst,
+        ^
+/usr/include/wchar.h:414:8: error: 'size_t' does not name a type
+ extern size_t wcsrtombs (char *__restrict __dst,
+        ^
+/usr/include/wchar.h:423:8: error: 'size_t' does not name a type
+ extern size_t mbsnrtowcs (wchar_t *__restrict __dst,
+        ^
+/usr/include/wchar.h:429:8: error: 'size_t' does not name a type
+ extern size_t wcsnrtombs (char *__restrict __dst,
+        ^
+/usr/include/wchar.h:443:42: error: 'size_t' has not been declared
+ extern int wcswidth (const wchar_t *__s, size_t __n) __THROW;
+                                          ^
+/usr/include/wchar.h:532:6: error: '__locale_t' has not been declared
+      __locale_t __loc) __THROW;
+      ^
+/usr/include/wchar.h:536:21: error: '__locale_t' has not been declared
+         int __base, __locale_t __loc) __THROW;
+                     ^
+/usr/include/wchar.h:541:17: error: '__locale_t' has not been declared
+     int __base, __locale_t __loc) __THROW;
+                 ^
+/usr/include/wchar.h:546:20: error: '__locale_t' has not been declared
+        int __base, __locale_t __loc)
+                    ^
+/usr/include/wchar.h:550:35: error: '__locale_t' has not been declared
+    wchar_t **__restrict __endptr, __locale_t __loc)
+                                   ^
+/usr/include/wchar.h:554:41: error: '__locale_t' has not been declared
+          wchar_t **__restrict __endptr, __locale_t __loc)
+                                         ^
+/usr/include/wchar.h:559:10: error: '__locale_t' has not been declared
+          __locale_t __loc) __THROW;
+          ^
+/usr/include/wchar.h:572:38: error: 'size_t' has not been declared
+     const wchar_t *__restrict __src, size_t __n)
+                                      ^
+/usr/include/wchar.h:580:53: error: 'size_t' has not been declared
+ extern __FILE *open_wmemstream (wchar_t **__bufloc, size_t *__sizeloc) __THROW;
+                                                     ^
+/usr/include/wchar.h:604:47: error: 'size_t' has not been declared
+ extern int swprintf (wchar_t *__restrict __s, size_t __n,
+                                               ^
+/usr/include/wchar.h:625:48: error: 'size_t' has not been declared
+ extern int vswprintf (wchar_t *__restrict __s, size_t __n,
+                                                ^
+/usr/include/wchar.h:855:8: error: 'size_t' does not name a type
+ extern size_t wcsftime (wchar_t *__restrict __s, size_t __maxsize,
+        ^
+/usr/include/wchar.h:865:8: error: 'size_t' does not name a type
+ extern size_t wcsftime_l (wchar_t *__restrict __s, size_t __maxsize,
+        ^
+In file included from /usr/include/c++/4.8/bits/postypes.h:40:0,
+                 from /usr/include/c++/4.8/bits/char_traits.h:40,
+                 from /usr/include/c++/4.8/string:40,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/c++/4.8/cwchar:151:11: error: '::mbrlen' has not been declared
+   using ::mbrlen;
+           ^
+/usr/include/c++/4.8/cwchar:152:11: error: '::mbrtowc' has not been declared
+   using ::mbrtowc;
+           ^
+/usr/include/c++/4.8/cwchar:154:11: error: '::mbsrtowcs' has not been declared
+   using ::mbsrtowcs;
+           ^
+/usr/include/c++/4.8/cwchar:176:11: error: '::wcrtomb' has not been declared
+   using ::wcrtomb;
+           ^
+/usr/include/c++/4.8/cwchar:181:11: error: '::wcscspn' has not been declared
+   using ::wcscspn;
+           ^
+/usr/include/c++/4.8/cwchar:182:11: error: '::wcsftime' has not been declared
+   using ::wcsftime;
+           ^
+/usr/include/c++/4.8/cwchar:183:11: error: '::wcslen' has not been declared
+   using ::wcslen;
+           ^
+/usr/include/c++/4.8/cwchar:187:11: error: '::wcsrtombs' has not been declared
+   using ::wcsrtombs;
+           ^
+/usr/include/c++/4.8/cwchar:188:11: error: '::wcsspn' has not been declared
+   using ::wcsspn;
+           ^
+/usr/include/c++/4.8/cwchar:196:11: error: '::wcsxfrm' has not been declared
+   using ::wcsxfrm;
+           ^
+In file included from /usr/include/c++/4.8/string:40:0,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/c++/4.8/bits/char_traits.h: In static member function 'static std::size_t std::char_traits<wchar_t>::length(const char_type*)':
+/usr/include/c++/4.8/bits/char_traits.h:330:26: error: 'wcslen' was not declared in this scope
+       { return wcslen(__s); }
+                          ^
+In file included from /usr/include/c++/4.8/clocale:42:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:41,
+                 from /usr/include/c++/4.8/bits/localefwd.h:40,
+                 from /usr/include/c++/4.8/string:43,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/locale.h: At global scope:
+/usr/include/locale.h:151:8: error: '__locale_t' does not name a type
+ extern __locale_t newlocale (int __category_mask, const char *__locale,
+        ^
+/usr/include/locale.h:186:8: error: '__locale_t' does not name a type
+ extern __locale_t duplocale (__locale_t __dataset) __THROW;
+        ^
+/usr/include/locale.h:190:25: error: variable or field 'freelocale' declared void
+ extern void freelocale (__locale_t __dataset) __THROW;
+                         ^
+/usr/include/locale.h:190:25: error: '__locale_t' was not declared in this scope
+/usr/include/locale.h:197:8: error: '__locale_t' does not name a type
+ extern __locale_t uselocale (__locale_t __dataset) __THROW;
+        ^
+In file included from /usr/include/c++/4.8/bits/localefwd.h:40:0,
+                 from /usr/include/c++/4.8/string:43,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:52:23: error: 'uselocale' was not declared in this scope
+   extern "C" __typeof(uselocale) __uselocale;
+                       ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:52:45: error: invalid type in declaration before ';' token
+   extern "C" __typeof(uselocale) __uselocale;
+                                             ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:62:11: error: '__locale_t' does not name a type
+   typedef __locale_t  __c_locale;
+           ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:69:26: error: '__c_locale' does not name a type
+   __convert_from_v(const __c_locale& __cloc __attribute__ ((__unused__)),
+                          ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h: In function 'int std::__convert_from_v(const int&, char*, int, const char*, ...)':
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:75:5: error: '__c_locale' was not declared in this scope
+     __c_locale __old = __gnu_cxx::__uselocale(__cloc);
+     ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:75:16: error: expected ';' before '__old'
+     __c_locale __old = __gnu_cxx::__uselocale(__cloc);
+                ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:100:28: error: '__old' was not declared in this scope
+     __gnu_cxx::__uselocale(__old);
+                            ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:100:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+     __gnu_cxx::__uselocale(__old);
+                                 ^
+In file included from /usr/include/c++/4.8/cctype:42:0,
+                 from /usr/include/c++/4.8/bits/localefwd.h:42,
+                 from /usr/include/c++/4.8/string:43,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/ctype.h: At global scope:
+/usr/include/ctype.h:271:1: error: '__locale_t' has not been declared
+ __exctype_l (isalnum_l);
+ ^
+/usr/include/ctype.h:272:1: error: '__locale_t' has not been declared
+ __exctype_l (isalpha_l);
+ ^
+/usr/include/ctype.h:273:1: error: '__locale_t' has not been declared
+ __exctype_l (iscntrl_l);
+ ^
+/usr/include/ctype.h:274:1: error: '__locale_t' has not been declared
+ __exctype_l (isdigit_l);
+ ^
+/usr/include/ctype.h:275:1: error: '__locale_t' has not been declared
+ __exctype_l (islower_l);
+ ^
+/usr/include/ctype.h:276:1: error: '__locale_t' has not been declared
+ __exctype_l (isgraph_l);
+ ^
+/usr/include/ctype.h:277:1: error: '__locale_t' has not been declared
+ __exctype_l (isprint_l);
+ ^
+/usr/include/ctype.h:278:1: error: '__locale_t' has not been declared
+ __exctype_l (ispunct_l);
+ ^
+/usr/include/ctype.h:279:1: error: '__locale_t' has not been declared
+ __exctype_l (isspace_l);
+ ^
+/usr/include/ctype.h:280:1: error: '__locale_t' has not been declared
+ __exctype_l (isupper_l);
+ ^
+/usr/include/ctype.h:281:1: error: '__locale_t' has not been declared
+ __exctype_l (isxdigit_l);
+ ^
+/usr/include/ctype.h:283:1: error: '__locale_t' has not been declared
+ __exctype_l (isblank_l);
+ ^
+/usr/include/ctype.h:287:34: error: '__locale_t' has not been declared
+ extern int __tolower_l (int __c, __locale_t __l) __THROW;
+                                  ^
+/usr/include/ctype.h:288:32: error: '__locale_t' has not been declared
+ extern int tolower_l (int __c, __locale_t __l) __THROW;
+                                ^
+/usr/include/ctype.h:291:34: error: '__locale_t' has not been declared
+ extern int __toupper_l (int __c, __locale_t __l) __THROW;
+                                  ^
+/usr/include/ctype.h:292:32: error: '__locale_t' has not been declared
+ extern int toupper_l (int __c, __locale_t __l) __THROW;
+                                ^
+In file included from /usr/include/sched.h:41:0,
+                 from /usr/include/pthread.h:23,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:148,
+                 from /usr/include/c++/4.8/ext/atomicity.h:35,
+                 from /usr/include/c++/4.8/bits/basic_string.h:39,
+                 from /usr/include/c++/4.8/string:52,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/x86_64-linux-gnu/bits/sched.h:203:30: error: 'size_t' was not declared in this scope
+ extern int __sched_cpucount (size_t __setsize, const cpu_set_t *__setp)
+                              ^
+/usr/include/x86_64-linux-gnu/bits/sched.h:203:30: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:59:0,
+                 from /usr/include/c++/4.8/list:60,
+                 from ../../../../include/common/comm/Epoll.h:6,
+                 from ../../../../src/common/comm/Epoll.cpp:5:
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:186:26: note:   'std::size_t'
+   typedef __SIZE_TYPE__  size_t;
+                          ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:186:26: note:   'std::size_t'
+In file included from /usr/include/sched.h:41:0,
+                 from /usr/include/pthread.h:23,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:148,
+                 from /usr/include/c++/4.8/ext/atomicity.h:35,
+                 from /usr/include/c++/4.8/bits/basic_string.h:39,
+                 from /usr/include/c++/4.8/string:52,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/x86_64-linux-gnu/bits/sched.h:203:48: error: expected primary-expression before 'const'
+ extern int __sched_cpucount (size_t __setsize, const cpu_set_t *__setp)
+                                                ^
+/usr/include/x86_64-linux-gnu/bits/sched.h:203:71: error: expression list treated as compound expression in initializer [-fpermissive]
+ extern int __sched_cpucount (size_t __setsize, const cpu_set_t *__setp)
+                                                                       ^
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/string.h:25,
+                 from ../../../../src/common/comm/Epoll.cpp:2:
+/usr/include/x86_64-linux-gnu/bits/sched.h:204:3: error: expected ',' or ';' before 'throw'
+   __THROW;
+   ^
+In file included from /usr/include/sched.h:41:0,
+                 from /usr/include/pthread.h:23,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:148,
+                 from /usr/include/c++/4.8/ext/atomicity.h:35,
+                 from /usr/include/c++/4.8/bits/basic_string.h:39,
+                 from /usr/include/c++/4.8/string:52,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/x86_64-linux-gnu/bits/sched.h:205:37: error: 'size_t' was not declared in this scope
+ extern cpu_set_t *__sched_cpualloc (size_t __count) __THROW __wur;
+                                     ^
+/usr/include/x86_64-linux-gnu/bits/sched.h:205:37: note: suggested alternatives:
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:59:0,
+                 from /usr/include/c++/4.8/list:60,
+                 from ../../../../include/common/comm/Epoll.h:6,
+                 from ../../../../src/common/comm/Epoll.cpp:5:
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:186:26: note:   'std::size_t'
+   typedef __SIZE_TYPE__  size_t;
+                          ^
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:186:26: note:   'std::size_t'
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/string.h:25,
+                 from ../../../../src/common/comm/Epoll.cpp:2:
+/usr/include/x86_64-linux-gnu/bits/sched.h:205:53: error: expected ',' or ';' before 'throw'
+ extern cpu_set_t *__sched_cpualloc (size_t __count) __THROW __wur;
+                                                     ^
+In file included from /usr/include/pthread.h:23:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:148,
+                 from /usr/include/c++/4.8/ext/atomicity.h:35,
+                 from /usr/include/c++/4.8/bits/basic_string.h:39,
+                 from /usr/include/c++/4.8/string:52,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/sched.h:116:46: error: 'size_t' has not been declared
+ extern int sched_setaffinity (__pid_t __pid, size_t __cpusetsize,
+                                              ^
+/usr/include/sched.h:120:46: error: 'size_t' has not been declared
+ extern int sched_getaffinity (__pid_t __pid, size_t __cpusetsize,
+                                              ^
+In file included from /usr/include/pthread.h:24:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:148,
+                 from /usr/include/c++/4.8/ext/atomicity.h:35,
+                 from /usr/include/c++/4.8/bits/basic_string.h:39,
+                 from /usr/include/c++/4.8/string:52,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/time.h:205:8: error: 'size_t' does not name a type
+ extern size_t strftime (char *__restrict __s, size_t __maxsize,
+        ^
+/usr/include/time.h:223:8: error: 'size_t' does not name a type
+ extern size_t strftime_l (char *__restrict __s, size_t __maxsize,
+        ^
+/usr/include/time.h:232:5: error: '__locale_t' has not been declared
+     __locale_t __loc) __THROW;
+     ^
+In file included from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:35:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:148,
+                 from /usr/include/c++/4.8/ext/atomicity.h:35,
+                 from /usr/include/c++/4.8/bits/basic_string.h:39,
+                 from /usr/include/c++/4.8/string:52,
+                 from ../../../../include/common/comm/SocketAddress.h:4,
+                 from ../../../../include/common/comm/BufferManager.h:29,
+                 from ../../../../include/common/comm/TCPAgent.h:7,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+/usr/include/pthread.h:317:11: error: 'size_t' has not been declared
+           size_t *__guardsize)
+           ^
+/usr/include/pthread.h:322:11: error: 'size_t' has not been declared
+           size_t __guardsize)
+           ^
+/usr/include/pthread.h:380:19: error: 'size_t' has not been declared
+           __attr, size_t *__restrict __stacksize)
+                   ^
+/usr/include/pthread.h:387:11: error: 'size_t' has not been declared
+           size_t __stacksize)
+           ^
+/usr/include/pthread.h:394:7: error: 'size_t' has not been declared
+       size_t *__restrict __stacksize)
+       ^
+/usr/include/pthread.h:401:7: error: 'size_t' has not been declared
+       size_t __stacksize) __THROW __nonnull ((1));
+       ^
+/usr/include/pthread.h:408:6: error: 'size_t' has not been declared
+      size_t __cpusetsize,
+      ^
+/usr/include/pthread.h:415:6: error: 'size_t' has not been declared
+      size_t __cpusetsize,
+      ^
+/usr/include/pthread.h:458:11: error: 'size_t' has not been declared
+           size_t __buflen)
+           ^
+/usr/include/pthread.h:485:52: error: 'size_t' has not been declared
+ extern int pthread_setaffinity_np (pthread_t __th, size_t __cpusetsize,
+                                                    ^
+/usr/include/pthread.h:490:52: error: 'size_t' has not been declared
+ extern int pthread_getaffinity_np (pthread_t __th, size_t __cpusetsize,
+                                                    ^
+In file included from ../../../../include/common/comm/TCPAgent.h:7:0,
+                 from ../../../../src/common/comm/Epoll.cpp:6:
+../../../../include/common/comm/BufferManager.h: In constructor 'Iov::Iov()':
+../../../../include/common/comm/BufferManager.h:63:48: error: 'memset' was not declared in this scope
+         memset( &m_Iovec, 0, sizeof( m_Iovec ) );
+                                                ^
+../../../../include/common/comm/BufferManager.h: In constructor 'Iov::Iov(char*, std::size_t, DataContext*)':
+../../../../include/common/comm/BufferManager.h:70:17: error: 'struct iovec' has no member named 'iov_len'
+         m_Iovec.iov_len = len;
+                 ^
+../../../../include/common/comm/BufferManager.h: In constructor 'Iov::Iov(char*, std::size_t, SocketAddress&, DataContext*)':
+../../../../include/common/comm/BufferManager.h:78:17: error: 'struct iovec' has no member named 'iov_len'
+         m_Iovec.iov_len = len;
+                 ^
+../../../../include/common/comm/BufferManager.h: In destructor 'virtual Iov::~Iov()':
+../../../../include/common/comm/BufferManager.h:85:17: error: 'struct iovec' has no member named 'iov_len'
+         m_Iovec.iov_len = 0;
+                 ^
+../../../../include/common/comm/BufferManager.h:88:62: error: 'memset' was not declared in this scope
+         memset( &m_UDPAddr, 0 , sizeof( struct sockaddr_in ) );
+                                                              ^
+../../../../src/common/comm/Epoll.cpp: In member function 'int Epoll::initialize(int)':
+../../../../src/common/comm/Epoll.cpp:46:60: error: 'memset' was not declared in this scope
+     memset( m_epollEvents, 0, sizeof( epoll_event )*fdsize );
+                                                            ^
+../../../../src/common/comm/Epoll.cpp: In member function 'int Epoll::doEvent(EpollEvent*, int, int, unsigned int)':
+../../../../src/common/comm/Epoll.cpp:61:50: error: 'memset' was not declared in this scope
+     memset( &ev, 0, sizeof( struct epoll_event ) );
+                                                  ^
+In file included from ../../../../src/common/comm/Epoll.cpp:10:0:
+../../../../src/common/comm/Epoll.cpp:66:71: error: 'strerror' was not declared in this scope
+         ERROR_LOG( "Epoll:doEvent epoll_ctl() error %s",strerror(errno) );
+                                                                       ^
+../../../../include/common/log/log.h:37:97: note: in definition of macro 'ERROR_LOG'
+ #define ERROR_LOG(_fmt_, args...) LoggerFactory::getInstance()->getRootLogger()->error(_fmt_, ##args)
+                                                                                                 ^
+make[5]: *** [Epoll.lo] Error 1
+make[5]: Leaving directory `/root/lqm/Relay/trunk/build/src/common/comm'
+make[4]: *** [all-recursive] Error 1
+make[4]: Leaving directory `/root/lqm/Relay/trunk/build/src/common/comm'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/root/lqm/Relay/trunk/build/src/common'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/root/lqm/Relay/trunk/build/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/root/lqm/Relay/trunk/build'
+make: *** [all] Error 2
